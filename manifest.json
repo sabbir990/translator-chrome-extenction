@@ -1,13 +1,14 @@
 {
-    "name" : "Translate Tongue",
-    "version" : "0.0.1",
-    "manifest_version" : 2,
-    "browser_action" : {
-        "default_popup" : "defaultPage.html",
-        "default_icon" : "defaultIcon.png"
+    "name": "Translate Tongue",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "defaultPage.html",
+        "default_icon": "defaultIcon.png"
     },
-    "icons" : {
-        "128" : "defaultIcon.png"
+    "icons": {
+        "128": "defaultIcon.png"
     },
-    "permissions" : ["activeTab"]
+    "permissions": ["activeTab"],
+    "content_security_policy": "script-src 'self' https://yourusername.github.io; object-src 'self'"
 }
