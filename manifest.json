@@ -10,5 +10,5 @@
         "128": "defaultIcon.png"
     },
     "permissions": ["activeTab"],
-    "content_security_policy": "script-src 'self' https://yourusername.github.io; object-src 'self'"
+    "content_security_policy": "script-src 'self' https://sabbir990.github.io; object-src 'self'"
 }
